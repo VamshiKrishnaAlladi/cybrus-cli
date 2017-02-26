@@ -16,6 +16,9 @@
         "Trick",
         "Prank"
     ],
+    "bin": {
+        "cybrus": "./index.js"
+    },
     "author": "Vamshi Krishna Alladi",
     "license": "ISC",
     "bugs": {

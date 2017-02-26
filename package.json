@@ -1,0 +1,25 @@
+{
+    "name": "cybrus",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/VamshiKrishnaAlladi/cybrus.git"
+    },
+    "keywords": [
+        "cybrus",
+        "BOT",
+        "Trick",
+        "Prank"
+    ],
+    "author": "Vamshi Krishna Alladi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VamshiKrishnaAlladi/cybrus/issues"
+    },
+    "homepage": "https://github.com/VamshiKrishnaAlladi/cybrus#readme"
+}

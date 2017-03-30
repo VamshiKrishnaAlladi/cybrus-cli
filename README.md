@@ -1,3 +1,1 @@
-# cybrus
-
-[![Build Status](https://travis-ci.org/VamshiKrishnaAlladi/cybrus.svg?branch=master)](https://travis-ci.org/VamshiKrishnaAlladi/cybrus)
+# cybrus    [![Build Status](https://travis-ci.org/VamshiKrishnaAlladi/cybrus.svg?branch=master)](https://travis-ci.org/VamshiKrishnaAlladi/cybrus)    [![CodeFactor](https://www.codefactor.io/repository/github/vamshikrishnaalladi/cybrus/badge/master)](https://www.codefactor.io/repository/github/vamshikrishnaalladi/cybrus/overview/master)

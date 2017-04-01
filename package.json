@@ -1,7 +1,7 @@
 {
     "name": "cybrus",
     "version": "0.0.1",
-    "description": "",
+    "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

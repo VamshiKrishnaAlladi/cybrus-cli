@@ -26,6 +26,6 @@
     },
     "homepage": "https://github.com/VamshiKrishnaAlladi/cybrus#readme",
     "dependencies": {
-        "commander": "^2.9.0"
+        "commander": "2.9.0"
     }
 }

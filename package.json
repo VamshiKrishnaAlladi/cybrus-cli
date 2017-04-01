@@ -27,5 +27,10 @@
     "homepage": "https://github.com/VamshiKrishnaAlladi/cybrus#readme",
     "dependencies": {
         "commander": "2.9.0"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-eslint": "^19.0.0",
+        "load-grunt-tasks": "^3.5.2"
     }
 }

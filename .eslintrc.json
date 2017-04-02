@@ -92,6 +92,7 @@
                 "variables": true
             }
         ],
+        "no-var": "error",
         "block-scoped-var": "error",
         "no-implicit-globals": "error",
         "no-undef-init": "error",

@@ -11,8 +11,21 @@ module.exports = function ( grunt ) {
             'target': {
                 'src': [
                     'src/**/*.js',
-                    'index.js'
+                    '*.js'
                 ]
+            }
+        },
+        'watch': {
+            'options': {
+                'interrupt': true,
+                'atBegin': true
+            },
+            'build': {
+                'files': [
+                    'src/**/*.js',
+                    '*.js'
+                ],
+                'tasks': [ 'build' ]
             }
         }
     } );

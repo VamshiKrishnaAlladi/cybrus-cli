@@ -1,3 +1,5 @@
-module.exports.answer = function ( args ) {
-    console.log( 'checking args :', args );
+module.exports = {
+    'answer': function ( args ) {
+        return args.petition || 'cybrus, please answer.';
+    }
 };

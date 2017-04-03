@@ -8,8 +8,9 @@
     },
     "jest": {
         "verbose": true,
+        "testEnvironment": "node",
         "testMatch": [
-            "./**/*.test.js"
+            "**/*.test.js"
         ],
         "testPathIgnorePatterns": [
             "/node_modules/",

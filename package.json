@@ -4,7 +4,17 @@
     "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest --coverage --colors"
+    },
+    "jest": {
+        "verbose": true,
+        "testMatch": [
+            "./**/*.test.js"
+        ],
+        "testPathIgnorePatterns": [
+            "/node_modules/",
+            "/coverage/"
+        ]
     },
     "repository": {
         "type": "git",
@@ -32,6 +42,8 @@
         "grunt": "^1.0.1",
         "grunt-contrib-watch": "^1.0.0",
         "grunt-eslint": "^19.0.0",
+        "grunt-shell": "^2.1.0",
+        "jest-cli": "^19.0.2",
         "load-grunt-tasks": "^3.5.2"
     }
 }

@@ -27,6 +27,14 @@ module.exports = function ( grunt ) {
                 ],
                 'tasks': [ 'build' ]
             }
+        },
+        'shell': {
+            'options': {
+                'failOnError': true
+            },
+            'jest': {
+                'command': 'jest --colors --coverage'
+            }
         }
     } );
 
@@ -34,6 +42,6 @@ module.exports = function ( grunt ) {
         grunt.log.ok( 'There are no default tasks specified, Please use a specific task.' +
             '\n\n\tExample: grunt <task-name>' );
     } );
-    grunt.registerTask( 'build', [ 'eslint' ] );
+    grunt.registerTask( 'build', [ 'eslint', 'shell:jest' ] );
 };
 

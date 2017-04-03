@@ -1,5 +1,7 @@
 module.exports = {
-    'answer': function ( args ) {
-        return args.petition || 'cybrus, please answer.';
+    'answer': function ( args = {
+        'petition': 'cybrus, please answer.'
+    } ) {
+        return args.petition;
     }
 };

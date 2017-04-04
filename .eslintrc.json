@@ -122,7 +122,6 @@
         ],
         "no-global-assign": "error",
         "no-const-assign": "error",
-        "no-console": "error",
         "operator-linebreak": [
             "error",
             "after"

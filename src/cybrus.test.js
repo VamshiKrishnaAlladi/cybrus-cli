@@ -2,6 +2,8 @@
 
 const cybrus = require( './cybrus' );
 
+const defaultArgs = {};
+
 test( 'the default petition', () => {
-    expect( cybrus.answer() ).toBe( 'cybrus, please answer.' );
+    expect( cybrus.answer( defaultArgs ) ).toBe( 'cybrus, please answer.' );
 } );

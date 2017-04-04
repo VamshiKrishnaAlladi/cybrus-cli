@@ -1,7 +1,8 @@
+const chalk = require( 'chalk' );
+
 module.exports = {
-    'answer': function ( args = {
-        'petition': 'cybrus, please answer.'
-    } ) {
-        return args.petition;
+    'answer': function ( { petition = 'cybrus, please answer.' } ) {
+        console.log( chalk.yellow( petition ) );
+        return petition;
     }
 };

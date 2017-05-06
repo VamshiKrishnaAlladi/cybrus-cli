@@ -30,7 +30,7 @@
         "Prank"
     ],
     "bin": {
-        "cybrus": "./index.js"
+        "cybrus": "./src/index.js"
     },
     "author": "Vamshi Krishna Alladi",
     "license": "ISC",

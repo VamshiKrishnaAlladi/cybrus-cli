@@ -3,7 +3,7 @@
 'use strict';
 
 const program = require( 'commander' );
-const cybrus = require( './src/cybrus' );
+const cybrus = require( './cybrus' );
 
 program
 .version( '0.0.1' )

@@ -40,7 +40,7 @@ module.exports = function ( grunt ) {
 
     grunt.registerTask( 'default', function () {
         grunt.log.ok( 'There are no default tasks specified, Please use a specific task.' +
-            '\n\n\tExample: grunt <task-name>' );
+            '\n\n\tUsage: grunt <task-name>' );
     } );
     grunt.registerTask( 'build', [ 'eslint', 'shell:jest' ] );
 };

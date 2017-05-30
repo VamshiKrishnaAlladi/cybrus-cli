@@ -19,7 +19,8 @@
     },
     "scripts": {
         "test": "jest --coverage --colors && codecov",
-        "precommit": "npm test"
+        "jest": "jest --colors",
+        "precommit": "npm run jest"
     },
     "jest": {
         "coverageDirectory": "./coverage/",

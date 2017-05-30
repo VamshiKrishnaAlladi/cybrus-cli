@@ -18,7 +18,8 @@
         "cybrus": "./src/cybrus.js"
     },
     "scripts": {
-        "test": "jest --coverage --colors && codecov"
+        "test": "jest --coverage --colors && codecov",
+        "precommit": "npm test"
     },
     "jest": {
         "coverageDirectory": "./coverage/",
@@ -43,6 +44,7 @@
         "grunt-contrib-watch": "^1.0.0",
         "grunt-eslint": "^19.0.0",
         "grunt-shell": "^2.1.0",
+        "husky": "^0.13.4",
         "jest-cli": "^19.0.2",
         "load-grunt-tasks": "^3.5.2"
     }

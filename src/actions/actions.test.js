@@ -7,5 +7,7 @@ const defaultArgs = {
 };
 
 test( 'the default request', () => {
-    expect( actions.answer( defaultArgs ) ).toBe( 'cybrus, please answer.' );
+    const actionResponse = actions.answer( defaultArgs );
+
+    expect( actionResponse ).toBe( 'cybrus, please answer.' );
 } );

@@ -1,13 +1,12 @@
-/* global test expect */
+/* global describe test expect */
 
 const actions = require( './actions' );
 
-const defaultArgs = {
-    'request': 'cybrus, please answer.'
-};
+describe( 'actions.answer() :', () => {
+    test( 'should return a non-empty string response.', () => {
+        const actionAnswerResponse = actions.answer();
 
-test( 'the default request', () => {
-    const actionResponse = actions.answer( defaultArgs );
-
-    expect( actionResponse ).toBe( 'cybrus, please answer.' );
+        expect( actionAnswerResponse ).toBeTruthy();
+        expect( typeof actionAnswerResponse ).toBe( 'string' );
+    } );
 } );

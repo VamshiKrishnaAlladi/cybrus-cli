@@ -25,7 +25,7 @@
     },
     "jest": {
         "coverageDirectory": "./coverage/",
-        "collectCoverage": true,
+        "collectCoverage": false,
         "testEnvironment": "node",
         "testMatch": [
             "**/*.test.js"

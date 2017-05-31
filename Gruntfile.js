@@ -26,6 +26,20 @@ module.exports = function ( grunt ) {
                     '*.js'
                 ],
                 'tasks': [ 'build' ]
+            },
+            'build+': {
+                'files': [
+                    'src/**/*.js',
+                    '*.js'
+                ],
+                'tasks': [ 'build+' ]
+            },
+            'deploy': {
+                'files': [
+                    'src/**/*.js',
+                    '*.js'
+                ],
+                'tasks': [ 'deploy' ]
             }
         },
         'shell': {
@@ -33,7 +47,13 @@ module.exports = function ( grunt ) {
                 'failOnError': true
             },
             'jest': {
+                'command': 'jest --colors'
+            },
+            'jestCov': {
                 'command': 'jest --colors --coverage'
+            },
+            'codecov': {
+                'command': 'codecov'
             }
         }
     } );
@@ -43,5 +63,7 @@ module.exports = function ( grunt ) {
             '\n\n\tUsage: grunt <task-name>' );
     } );
     grunt.registerTask( 'build', [ 'eslint', 'shell:jest' ] );
+    grunt.registerTask( 'build+', [ 'eslint', 'shell:jestCov' ] );
+    grunt.registerTask( 'deploy', [ 'eslint', 'shell:jestCov', 'shell:codecov' ] );
 };
 

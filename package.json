@@ -18,9 +18,10 @@
         "cybrus": "./src/cybrus.js"
     },
     "scripts": {
-        "test": "jest --coverage --colors && codecov",
+        "build": "jest --coverage --colors && codecov",
         "jest": "jest --colors",
-        "precommit": "npm run jest"
+        "codecov": "codecov",
+        "precommit": "jest"
     },
     "jest": {
         "coverageDirectory": "./coverage/",

@@ -1,0 +1,3 @@
+codecov:
+  branch: development
+  strict_yaml_branch: development

@@ -1,7 +1,13 @@
-# cybrus
+# Cybrus
 
-Service | Status
---------|--------
-CircleCI | [![CircleCI](https://circleci.com/gh/VamshiKrishnaAlladi/cybrus.svg?style=svg)](https://circleci.com/gh/VamshiKrishnaAlladi/cybrus)
-Codecov | [![codecov](https://codecov.io/gh/VamshiKrishnaAlladi/cybrus/branch/master/graph/badge.svg)](https://codecov.io/gh/VamshiKrishnaAlladi/cybrus)
-CodeFactor | [![CodeFactor](https://www.codefactor.io/repository/github/vamshikrishnaalladi/cybrus/badge/development)](https://www.codefactor.io/repository/github/vamshikrishnaalladi/cybrus/overview/development)
+[![CircleCI](https://img.shields.io/circleci/project/github/VamshiKrishnaAlladi/cybrus.svg?style=flat&label=CircleCI%20build)](https://circleci.com/gh/VamshiKrishnaAlladi/cybrus)
+[![Codecov](https://img.shields.io/codecov/c/github/VamshiKrishnaAlladi/cybrus/development.svg?style=flat&label=Codecov%20coverage)](https://codecov.io/gh/VamshiKrishnaAlladi/cybrus)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/VamshiKrishnaAlladi/cybrus/badges/quality-score.png?b=development)](https://scrutinizer-ci.com/g/VamshiKrishnaAlladi/cybrus/?branch=development)
+
+Cybrus is a CLI app that ends your ultimate quest for the answers.
+
+- Is it a Trick?
+- Is it a bot?
+
+It is a Prank! Yes, I said it. It is a PRANK.
+

@@ -6,7 +6,8 @@ module.exports = function ( grunt ) {
     grunt.initConfig( {
         'eslint': {
             'options': {
-                'config': '.eslintrc.json'
+                'config': '.eslintrc.json',
+                'fix': true
             },
             'target': {
                 'src': [
@@ -66,4 +67,3 @@ module.exports = function ( grunt ) {
     grunt.registerTask( 'build+', [ 'eslint', 'shell:jestCov' ] );
     grunt.registerTask( 'deploy', [ 'eslint', 'shell:jestCov', 'shell:codecov' ] );
 };
-

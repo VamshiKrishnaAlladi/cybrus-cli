@@ -18,7 +18,7 @@
         "cybrus": "./src/cybrus.js"
     },
     "scripts": {
-        "build": "jest --coverage --colors && codecov",
+        "test": "jest --coverage --colors && codecov",
         "jest": "jest --colors",
         "codecov": "codecov",
         "precommit": "jest"

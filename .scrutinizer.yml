@@ -1,0 +1,7 @@
+checks:
+  javascript: true
+
+build_failure_conditions:
+  - 'project.metric("scrutinizer.quality", < 8)'
+  - 'issues.severity(>= MAJOR).exists'
+  - 'issues.severity(>= MAJOR).new.exists'

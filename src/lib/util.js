@@ -4,4 +4,8 @@ function getRandomNumber ( max = Number.MAX_SAFE_INTEGER ) {
     return Math.floor( Math.random() * max );
 }
 
-module.exports = { getRandomNumber };
+function log ( outputStr ) {
+    process.stdout.write( outputStr + '\r\n' );
+}
+
+module.exports = { getRandomNumber, log };

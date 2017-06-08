@@ -1,3 +1,5 @@
+'use strict';
+
 const actions = require( './actions' );
 
 describe( 'actions.answer() :', () => {

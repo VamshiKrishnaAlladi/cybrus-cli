@@ -1,3 +1,5 @@
+'use strict';
+
 const responses = require( './responses' );
 
 describe( 'responses.getRandomResponse() :', () => {

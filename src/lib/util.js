@@ -1,3 +1,5 @@
+'use strict';
+
 function getRandomNumber ( max = Number.MAX_SAFE_INTEGER ) {
     if ( max <= 0 ) { return 0; }
 

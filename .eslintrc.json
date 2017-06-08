@@ -10,9 +10,10 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "sourceType": "module"
+        "sourceType": "script"
     },
     "rules": {
+        "strict": [ "error", "global" ],
         "no-mixed-spaces-and-tabs": "error",
         "no-multi-spaces": "error",
         "space-unary-ops": [

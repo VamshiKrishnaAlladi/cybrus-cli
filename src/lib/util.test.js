@@ -1,5 +1,3 @@
-/* global describe test expect */
-
 const util = require ( './util' );
 
 describe ( 'util.getRandomNumber() :', () => {

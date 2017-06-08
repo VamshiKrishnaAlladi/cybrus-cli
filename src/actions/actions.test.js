@@ -1,5 +1,3 @@
-/* global describe test expect */
-
 const actions = require( './actions' );
 
 describe( 'actions.answer() :', () => {

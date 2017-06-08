@@ -1,5 +1,3 @@
-/* global describe test expect */
-
 const responses = require( './responses' );
 
 describe( 'responses.getRandomResponse() :', () => {

@@ -13,7 +13,7 @@
         '-r, --request <request>',
         'overwrites the request to cybrus. [default: "cybrus, please answer."]',
         'cybrus, please answer.'
-        )
+    )
     .action( actions.answer );
 
     program.parse( process.argv );

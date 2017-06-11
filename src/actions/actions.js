@@ -12,4 +12,8 @@ function answer () {
     return response;
 }
 
-module.exports = { answer };
+function startAConversation () {
+    display( 'Hi There!' );
+}
+
+module.exports = { startAConversation, answer };

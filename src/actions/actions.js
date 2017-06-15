@@ -1,19 +1,21 @@
 'use strict';
 
-const chalk = require( 'chalk' );
+module.exports = class Actions {
 
-const { display } = require( './../lib/util' );
-const responses = require( './../lib/responses' );
+    constructor ( chalk, util, responses ) {
+        this.chalk = chalk;
+        this.util = util;
+        this.responses = responses;
+    }
 
-function answer () {
-    const response = responses.getRandomResponse();
+    answer () {
+        const response = this.responses.getRandomResponse();
 
-    display( chalk.yellow( response ) );
-    return response;
-}
+        this.util.display( this.chalk.yellow( response ) );
+        return response;
+    }
 
-function startAConversation () {
-    display( 'Hi There!' );
-}
-
-module.exports = { startAConversation, answer };
+    startAConversation () {
+        this.util.display( 'Hi There!' );
+    }
+};

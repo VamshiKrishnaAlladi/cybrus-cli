@@ -3,8 +3,8 @@
 
 ( function () {
     const program = require( 'commander' );
-    const Actions = require( './actions/actions' );
-    const actions = new Actions(
+
+    const actions = new ( require( './actions/actions' ) )(
         require( 'chalk' ),
         require( './lib/util' ),
         require( './lib/responses' )

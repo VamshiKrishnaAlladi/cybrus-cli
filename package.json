@@ -1,6 +1,6 @@
 {
     "name": "cybrus",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
     "main": "cybrus.js",
     "author": "Vamshi Krishna Alladi",

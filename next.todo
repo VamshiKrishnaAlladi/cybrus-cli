@@ -1,0 +1,12 @@
+Cybrus:
+    ☐ Switch to a better option parser
+    ☐ Look for better mocking techniques with Jest
+        ☐ Check if code refactoring is required
+
+    Actions:
+        ☐ Implement reminders/todos
+            ☐ Evaluate and decide what to use Google tasks or trello
+
+    Custom Libraries:
+        Util:
+        Responses:

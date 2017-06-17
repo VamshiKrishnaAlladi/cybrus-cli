@@ -1,5 +1,7 @@
 # Cybrus
 
+## [ Work-In-Progress 👨‍💻❗⛑ ]
+
 [![CircleCI](https://img.shields.io/circleci/project/github/VamshiKrishnaAlladi/cybrus.svg?style=flat&label=CircleCI%20build)](https://circleci.com/gh/VamshiKrishnaAlladi/cybrus)
 [![Codecov](https://img.shields.io/codecov/c/github/VamshiKrishnaAlladi/cybrus/development.svg?style=flat&label=Codecov%20coverage)](https://codecov.io/gh/VamshiKrishnaAlladi/cybrus)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/VamshiKrishnaAlladi/cybrus/badges/quality-score.png?b=development)](https://scrutinizer-ci.com/g/VamshiKrishnaAlladi/cybrus/?branch=development)
@@ -12,7 +14,7 @@ You can ask cybrus anything like,
 
 > who is the person sitting beside me?
 
-> when was last time I had a Cotton Candy?
+> when was the last time I had a Cotton Candy?
 
 > What is the color of the dress Jane was wearing on the high school prom-night 6 years back?
 
@@ -28,8 +30,10 @@ How does cybrus do that?
 - Is one of your friends helping it to answer?
 - Is it the Terminator franchise's Skynet?
 
-Maybe it is. Maybe it is not.
+**Maybe it is. _Maybe it is not._**
 
-Psst!, It is a Prank! Yes, I said it. It is a PRANK. ( It is intended to be, at first place. )
+Psst!, Here is the secret. It is a Prank! 😜
+
+Yes, I said it. It is a PRANK. ( It is intended to be, at first place. )
 
 > **Note:** Cybrus is still Work-In-Progress.

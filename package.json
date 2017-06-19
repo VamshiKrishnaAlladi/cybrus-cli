@@ -9,7 +9,12 @@
         "url": "https://github.com/VamshiKrishnaAlladi/cybrus/issues"
     },
     "homepage": "https://github.com/VamshiKrishnaAlladi/cybrus#readme",
-    "keywords": [ "cybrus", "BOT", "Trick", "Prank" ],
+    "keywords": [
+        "cybrus",
+        "BOT",
+        "Trick",
+        "Prank"
+    ],
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/VamshiKrishnaAlladi/cybrus.git"
@@ -37,6 +42,7 @@
         "verbose": true
     },
     "dependencies": {
+        "bluebird": "3.5.0",
         "chalk": "1.1.3",
         "commander": "2.9.0"
     },

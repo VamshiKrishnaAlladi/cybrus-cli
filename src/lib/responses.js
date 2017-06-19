@@ -1,15 +1,13 @@
 'use strict';
 
 const util = require ( './util' );
-const responseStrings = require( './responseStrings' );
+const responseStrings = require( './responseStrings.json' );
 
 const numberOfResponseStrings = responseStrings.length;
 
 function *getRandomResponsesGenerator () {
     while ( true ) {
-        const index = util.getRandomNumber( numberOfResponseStrings );
-
-        yield responseStrings[ index ];
+        yield responseStrings[ util.getRandomNumber( numberOfResponseStrings ) ];
     }
 }
 

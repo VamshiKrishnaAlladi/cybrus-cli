@@ -7,7 +7,7 @@ describe( 'actions.answer() :', () => {
     test( 'should return a non-empty string response.', () => {
         const actions = new Actions(
             require( 'chalk' ),
-            require( './../lib/util' ),
+            require( './../lib/utilities' ),
             require( './../lib/responses' )
         );
         const actionAnswerResponse = actions.answer();
@@ -22,16 +22,16 @@ describe( 'actions.startAConversation() :', () => {
     let actions = null;
 
     beforeEach( () => {
-        jest.mock( './../lib/util' );
+        jest.mock( './../lib/utilities' );
         actions = new Actions(
             require( 'chalk' ),
-            require( './../lib/util' ),
+            require( './../lib/utilities' ),
             require( './../lib/responses' )
         );
     } );
 
     test( 'should call display()', () => {
-        const util = require( './../lib/util' );
+        const util = require( './../lib/utilities' );
 
         actions.startAConversation();
 

@@ -1,5 +1,8 @@
 Cybrus:
-    ☐ Switch to a better option parser
+    ☐ Switch to a better option parser:
+        ☐ nopt?
+        ☐ get-options?
+
     ☐ Check if we can use levelDB
 
     Tests:

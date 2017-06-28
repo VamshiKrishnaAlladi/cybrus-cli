@@ -1,4 +1,4 @@
-/* global: jest describe test expect */
+/** global: jest describe test expect */
 'use strict';
 
 const responses = require( './responses' );

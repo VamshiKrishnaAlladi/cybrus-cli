@@ -1,7 +1,8 @@
 machine:
   node:
-    version: 8.1.1
+    version: 7.5.0
 
 test:
   override:
-    - npm run test-ci
+    - npm run ci-test
+    - npm run ci-cov

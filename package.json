@@ -24,7 +24,7 @@
     },
     "scripts": {
         "test": "jest --coverage --colors && codecov",
-        "test-ci": "jest --coverage",
+        "test-ci": "jest",
         "jest": "jest --colors",
         "codecov": "codecov",
         "precommit": "jest"

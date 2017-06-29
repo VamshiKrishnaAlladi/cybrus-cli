@@ -4,6 +4,11 @@
 ( function () {
 
     const program = require( 'commander' );
+    const actions = new ( require( './actions/actions' ) )(
+        require( 'chalk' ),
+        require( './lib/util' ),
+        require( './lib/responses' )
+    );
 
     program.option(
         '-r, --request <request>',
@@ -12,5 +17,5 @@
     )
     .parse( process.argv );
 
-    console.log( 'in cybrus-answer.js' );
+    actions.answer();
 } )();

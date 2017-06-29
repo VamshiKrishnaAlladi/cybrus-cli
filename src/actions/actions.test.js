@@ -1,3 +1,4 @@
+/** global: jest */
 'use strict';
 
 
@@ -7,7 +8,7 @@ describe( 'actions.answer() :', () => {
     test( 'should return a non-empty string response.', () => {
         const actions = new Actions(
             require( 'chalk' ),
-            require( './../lib/util' ),
+            require( './../lib/utilities' ),
             require( './../lib/responses' )
         );
         const actionAnswerResponse = actions.answer();
@@ -17,18 +18,26 @@ describe( 'actions.answer() :', () => {
     } );
 } );
 
-// describe( 'actions.startAConversation() :', () => {
-//     beforeEach( () => {
-//         jest.mock( './../lib/util' );
-//     } );
+describe( 'actions.startAConversation() :', () => {
+    const Actions = require( './actions' );
+    let actions = null;
 
-//     test( 'should call display()', () => {
-//         const util = require( './../lib/util' );
-//         const actions = require( './actions' );
+    beforeEach( () => {
+        jest.mock( './../lib/utilities' );
+        actions = new Actions(
+            require( 'chalk' ),
+            require( './../lib/utilities' ),
+            require( './../lib/responses' )
+        );
+    } );
 
-//         actions.startAConversation();
+    test( 'should call display()', () => {
+        const util = require( './../lib/utilities' );
 
-//         expect( jest.isMockFunction( util.display ) ).toBeTruthy();
-//         expect( util.display ).toHaveBeenCalled();
-//     } );
-// } );
+        actions.startAConversation();
+
+        expect( jest.isMockFunction( util.display ) ).toBeTruthy();
+
+        expect( util.display ).toHaveBeenCalled();
+    } );
+} );

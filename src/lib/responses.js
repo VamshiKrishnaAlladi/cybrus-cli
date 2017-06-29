@@ -1,22 +1,12 @@
 'use strict';
 
-const util = require ( './util' );
-const responseStrings = require( './responseStrings' );
+const utilities = require ( './utilities' );
+const responseStrings = require( './responseStrings.json' );
 
 const numberOfResponseStrings = responseStrings.length;
 
-function *getRandomResponsesGenerator () {
-    while ( true ) {
-        const index = util.getRandomNumber( numberOfResponseStrings );
-
-        yield responseStrings[ index ];
-    }
-}
-
-const responseGenerator = getRandomResponsesGenerator();
-
 function getRandomResponse () {
-    return responseGenerator.next().value;
+    return responseStrings[ utilities.getRandomNumber( numberOfResponseStrings ) ];
 }
 
 module.exports = { getRandomResponse };

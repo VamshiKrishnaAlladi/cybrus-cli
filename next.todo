@@ -1,11 +1,15 @@
 Cybrus:
-    ☐ Switch to a better option parser
+    ☐ Switch to a better option parser:
+        ☐ nopt?
+        ☐ get-options?
+
+    ☐ Check if we can use levelDB
 
     Tests:
         ☐ Look for better mocking techniques with Jest
             ☐ Check if code refactoring is required
-        ☐ Fix testing flow
-            ☐ Use dependency injections for the code in favor to testability
+        ✔ Fix testing flow @done (6/24/2017, 3:00:08 PM)
+            ✔ Use dependency injections for the code in favor of testability @done (6/24/2017, 3:00:06 PM)
     
     Cybrus-Actions:
         ☐ Implement reminders/todos
@@ -14,3 +18,6 @@ Cybrus:
     Custom Libraries:
         Util:
         Responses:
+
+Ideas:
+    ☐ should provoke user to play a game and do silly pranks/tricks

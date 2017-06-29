@@ -1,3 +1,4 @@
+/** global: jest */
 'use strict';
 
 const responses = require( './responses' );

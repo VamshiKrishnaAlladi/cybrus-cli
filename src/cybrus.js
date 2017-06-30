@@ -6,7 +6,7 @@
 
     const actions = new ( require( './actions/actions' ) )(
         require( 'chalk' ),
-        require( './lib/util' ),
+        require( './lib/utilities' ),
         require( './lib/responses' )
     );
 

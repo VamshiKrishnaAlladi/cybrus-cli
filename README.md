@@ -1,7 +1,5 @@
 # Cybrus-CLI
----
 ## [ Work-In-Progress 👨‍💻❗⛑ ]
----
 ### **Badges** [ _First things first_ ] :
 
 [![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli) [![Buddy Pipeline](https://app.buddy.works/cybrus-ai/cybrus-cli/pipelines/pipeline/55186/badge.svg?token=9121062b234afbfe193cc2b7f82c901f9c1f1358203ad1b3d95af22ac2d2445c "buddy pipeline")](https://app.buddy.works/cybrus-ai/cybrus-cli/pipelines/pipeline/55186)

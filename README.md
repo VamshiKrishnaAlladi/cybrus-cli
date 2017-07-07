@@ -2,10 +2,11 @@
 
 ## [ Work-In-Progress 👨‍💻❗⛑ ]
 
-[![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli)
-[![Codecov coverage](https://img.shields.io/codecov/c/github/CybrusAI/cybrus-cli/development.svg?style=flat&label=Codecov%20coverage)](https://codecov.io/gh/CybrusAI/cybrus-cli)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CybrusAI/cybrus-cli.svg?label=Scrutinizer%20Code%20Quality)](https://scrutinizer-ci.com/g/CybrusAI/cybrus-cli/?branch=development)
-[![Greenkeeper badge](https://badges.greenkeeper.io/CybrusAI/cybrus-cli.svg)](https://greenkeeper.io/)
+[![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli)
+[![Codecov coverage](https://img.shields.io/codecov/c/github/CybrusAI/cybrus-cli/development.svg?style=flat-square&label=Codecov%20coverage)](https://codecov.io/gh/CybrusAI/cybrus-cli)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CybrusAI/cybrus-cli.svg?style=flat-square&label=Scrutinizer%20Code%20Quality)](https://scrutinizer-ci.com/g/CybrusAI/cybrus-cli/?branch=development)
+[![Buddy Pipeline](https://app.buddy.works/cybrus-ai/cybrus-cli/pipelines/pipeline/55186/badge.svg?token=9121062b234afbfe193cc2b7f82c901f9c1f1358203ad1b3d95af22ac2d2445c "buddy pipeline")](https://app.buddy.works/cybrus-ai/cybrus-cli/pipelines/pipeline/55186)
+[![Greenkeeper badge](https://img.shields.io/badge/Greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/)
 
 
 Cybrus is a CLI app that ends your ultimate quest for the answers.

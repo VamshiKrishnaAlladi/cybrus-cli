@@ -43,6 +43,10 @@
         ],
         "verbose": true
     },
+    "engines": {
+        "node": "7.5.0",
+        "npm": "4.1.2"
+    },
     "dependencies": {
         "bluebird": "3.5.0",
         "chalk": "2.0.1",

@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/cybrus
     docker:
-      - image: circleci/node:7.5.0
+      - image: circleci/node:7.10.0
     steps:
       - checkout
       - run: npm install

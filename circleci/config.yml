@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/cybrus
+    docker:
+      - image: circleci/node:8.1.2
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run ci-test
+      - run: npm run ci-cov

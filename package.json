@@ -1,64 +1,64 @@
 {
-  "name": "@cybrus-ai/cybrus-cli",
-  "version": "0.3.0",
-  "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
-  "main": "cybrus.js",
-  "author": "Vamshi Krishna Alladi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CybrusAI/cybrus-cli/issues"
-  },
-  "homepage": "https://github.com/CybrusAI/cybrus-cli#readme",
-  "keywords": [
-    "cybrus",
-    "BOT",
-    "Trick",
-    "Prank"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/CybrusAI/cybrus-cli.git"
-  },
-  "bin": {
-    "cybrus": "./src/cybrus.js"
-  },
-  "scripts": {
-    "test": "jest --coverage --colors && codecov",
-    "ci-test": "jest --coverage",
-    "ci-cov": "codecov",
-    "jest": "jest --colors",
-    "codecov": "codecov",
-    "precommit": "jest"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": false,
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/*.test.js"
+    "name": "@cybrus-ai/cybrus-cli",
+    "version": "0.3.0",
+    "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
+    "main": "cybrus.js",
+    "author": "Vamshi Krishna Alladi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CybrusAI/cybrus-cli/issues"
+    },
+    "homepage": "https://github.com/CybrusAI/cybrus-cli#readme",
+    "keywords": [
+        "cybrus",
+        "BOT",
+        "Trick",
+        "Prank"
     ],
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/coverage/"
-    ],
-    "verbose": true
-  },
-  "engines": {
-    "node": "7.10.0",
-    "npm": "4.2.0"
-  },
-  "dependencies": {
-    "chalk": "2.0.1",
-    "minimist": "1.2.0"
-  },
-  "devDependencies": {
-    "codecov": "^2.1.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-eslint": "^20.0.0",
-    "grunt-shell": "^2.1.0",
-    "husky": "^0.14.1",
-    "jest-cli": "^20.0.4",
-    "load-grunt-tasks": "^3.5.2"
-  }
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/CybrusAI/cybrus-cli.git"
+    },
+    "bin": {
+        "cybrus": "./src/cybrus.js"
+    },
+    "scripts": {
+        "test": "jest --coverage --colors && codecov",
+        "ci-test": "jest --coverage",
+        "ci-cov": "codecov",
+        "jest": "jest --colors",
+        "codecov": "codecov",
+        "precommit": "jest"
+    },
+    "jest": {
+        "coverageDirectory": "./coverage/",
+        "collectCoverage": false,
+        "testEnvironment": "node",
+        "testMatch": [
+            "**/*.test.js"
+        ],
+        "testPathIgnorePatterns": [
+            "/node_modules/",
+            "/coverage/"
+        ],
+        "verbose": true
+    },
+    "engines": {
+        "node": "7.10.0",
+        "npm": "4.2.0"
+    },
+    "dependencies": {
+        "chalk": "2.0.1",
+        "minimist": "1.2.0"
+    },
+    "devDependencies": {
+        "codecov": "^2.1.0",
+        "grunt": "^1.0.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-eslint": "^20.0.0",
+        "grunt-shell": "^2.1.0",
+        "husky": "^0.14.1",
+        "jest-cli": "^20.0.4",
+        "load-grunt-tasks": "^3.5.2"
+    }
 }

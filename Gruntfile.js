@@ -1,71 +1,90 @@
 'use strict';
 
+const gruntTaskLoader = require('load-grunt-tasks');
+const chalk = require('chalk');
+
+const defaultTaskMessage =
+`
+There are no default tasks specified, Please use a specific task.
+
+    Usage: grunt <task-name>
+`;
+
 const gruntConfig = {
-    'eslint': {
-        'options': {
-            'config': '.eslintrc.json',
-            'fix': true
+    eslint: {
+        options: {
+            config: '.eslintrc.json',
         },
-        'target': {
-            'src': [
+        target: {
+            src: [
                 'src/**/*.js',
-                '*.js'
-            ]
-        }
-    },
-    'watch': {
-        'options': {
-            'interrupt': true,
-            'atBegin': true
-        },
-        'build': {
-            'files': [
-                'src/**/*.js',
-                '*.js'
+                '*.js',
             ],
-            'tasks': [ 'build' ]
+        },
+    },
+    watch: {
+        options: {
+            interrupt: true,
+            atBegin: true,
+        },
+        lint: {
+            files: [
+                'src/**/*.js',
+                '*.js',
+            ],
+            tasks: ['lint'],
+        },
+        build: {
+            files: [
+                'src/**/*.js',
+                '*.js',
+            ],
+            tasks: ['build'],
         },
         'build+': {
-            'files': [
+            files: [
                 'src/**/*.js',
-                '*.js'
+                '*.js',
             ],
-            'tasks': [ 'build+' ]
+            tasks: ['build+'],
         },
-        'deploy': {
-            'files': [
+        deploy: {
+            files: [
                 'src/**/*.js',
-                '*.js'
+                '*.js',
             ],
-            'tasks': [ 'deploy' ]
-        }
+            tasks: ['deploy'],
+        },
     },
-    'shell': {
-        'options': {
-            'failOnError': true
+    shell: {
+        options: {
+            failOnError: true,
         },
-        'jest': {
-            'command': 'jest --colors'
+        jest: {
+            command: 'jest --colors',
         },
-        'jestCov': {
-            'command': 'jest --colors --coverage'
+        jestCov: {
+            command: 'jest --colors --coverage',
         },
-        'codecov': {
-            'command': 'codecov'
-        }
-    }
+        codecov: {
+            command: 'codecov',
+        },
+    },
 };
 
-module.exports = function ( grunt ) {
-    require( 'load-grunt-tasks' )( grunt );
+module.exports = function gruntExport(grunt) {
+    gruntTaskLoader(grunt);
 
-    grunt.initConfig( gruntConfig );
+    grunt.initConfig(gruntConfig);
 
-    grunt.registerTask( 'default', function () {
-        grunt.log.ok( 'There are no default tasks specified, Please use a specific task.' +
-            '\n\n\tUsage: grunt <task-name>' );
-    } );
-    grunt.registerTask( 'build', [ 'eslint', 'shell:jest' ] );
-    grunt.registerTask( 'build+', [ 'eslint', 'shell:jestCov' ] );
-    grunt.registerTask( 'deploy', [ 'eslint', 'shell:jestCov', 'shell:codecov' ] );
+    grunt.registerTask('default', () => {
+        grunt.log.ok(chalk.bold.magenta(defaultTaskMessage));
+    });
+
+    grunt.registerTask('lint', ['eslint']);
+
+    grunt.registerTask('build', ['eslint', 'shell:jest']);
+    grunt.registerTask('build+', ['eslint', 'shell:jestCov']);
+
+    grunt.registerTask('deploy', ['eslint', 'shell:jestCov', 'shell:codecov']);
 };

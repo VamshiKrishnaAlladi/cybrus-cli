@@ -1,14 +1,14 @@
 {
-    "name": "cybrus",
-    "version": "0.2.0",
+    "name": "@cybrus-ai/cybrus-cli",
+    "version": "0.3.0",
     "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
     "main": "cybrus.js",
     "author": "Vamshi Krishna Alladi",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/VamshiKrishnaAlladi/cybrus/issues"
+        "url": "https://github.com/CybrusAI/cybrus-cli/issues"
     },
-    "homepage": "https://github.com/VamshiKrishnaAlladi/cybrus#readme",
+    "homepage": "https://github.com/CybrusAI/cybrus-cli#readme",
     "keywords": [
         "cybrus",
         "BOT",
@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/VamshiKrishnaAlladi/cybrus.git"
+        "url": "git+ssh://git@github.com/CybrusAI/cybrus-cli.git"
     },
     "bin": {
         "cybrus": "./src/cybrus.js"
@@ -44,13 +44,12 @@
         "verbose": true
     },
     "engines": {
-        "node": "7.5.0",
-        "npm": "4.1.2"
+        "node": "8.7.0",
+        "npm": "5.4.2"
     },
     "dependencies": {
-        "bluebird": "3.5.0",
-        "chalk": "2.1.0",
-        "commander": "2.11.0"
+        "chalk": "2.2.0",
+        "minimist": "1.2.0"
     },
     "devDependencies": {
         "codecov": "^2.1.0",
@@ -59,7 +58,7 @@
         "grunt-eslint": "^20.0.0",
         "grunt-shell": "^2.1.0",
         "husky": "^0.14.1",
-        "jest-cli": "^21.0.0",
+        "jest-cli": "^20.0.4",
         "load-grunt-tasks": "^3.5.2"
     }
 }

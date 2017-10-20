@@ -11,7 +11,7 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "sourceType": "script"
+        "sourceType": "module"
     },
     "extends": "airbnb-base",
     "rules": {

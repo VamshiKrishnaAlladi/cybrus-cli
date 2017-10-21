@@ -1,5 +1,3 @@
-'use strict';
-
 const gruntTaskLoader = require('load-grunt-tasks');
 const chalk = require('chalk');
 

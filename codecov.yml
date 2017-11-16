@@ -1,6 +1,5 @@
 codecov:
-  branch: development
-  strict_yaml_branch: development
+  token: 0b19440d-42cf-40bb-b455-09b89e8d3010
 
 coverage:
   notify:

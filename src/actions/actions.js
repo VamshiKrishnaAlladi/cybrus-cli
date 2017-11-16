@@ -1,21 +1,14 @@
-'use strict';
-
 module.exports = class Actions {
-
-    constructor ( chalk, util, responses ) {
+    constructor(chalk, util, responses) {
         this.chalk = chalk;
         this.util = util;
         this.responses = responses;
     }
 
-    answer () {
+    answer() {
         const response = this.responses.getRandomResponse();
 
-        this.util.display( this.chalk.yellow( response ) );
+        this.util.display(this.chalk.yellow(response));
         return response;
-    }
-
-    startAConversation () {
-        this.util.display( 'Hi There!' );
     }
 };

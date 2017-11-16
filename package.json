@@ -1,14 +1,14 @@
 {
-    "name": "cybrus",
-    "version": "0.2.0",
+    "name": "@cybrus-ai/cybrus-cli",
+    "version": "0.4.0",
     "description": "Cybrus is a CLI app that ends your ultimate quest for the answers.",
     "main": "cybrus.js",
     "author": "Vamshi Krishna Alladi",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/VamshiKrishnaAlladi/cybrus/issues"
+        "url": "https://github.com/CybrusAI/cybrus-cli/issues"
     },
-    "homepage": "https://github.com/VamshiKrishnaAlladi/cybrus#readme",
+    "homepage": "https://github.com/CybrusAI/cybrus-cli#readme",
     "keywords": [
         "cybrus",
         "BOT",
@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/VamshiKrishnaAlladi/cybrus.git"
+        "url": "git+ssh://git@github.com/CybrusAI/cybrus-cli.git"
     },
     "bin": {
         "cybrus": "./src/cybrus.js"
@@ -43,13 +43,19 @@
         ],
         "verbose": true
     },
+    "engines": {
+        "node": "8.7.0",
+        "npm": "5.4.2"
+    },
     "dependencies": {
-        "bluebird": "3.5.0",
-        "chalk": "2.0.1",
-        "commander": "2.11.0"
+        "chalk": "2.3.0",
+        "minimist": "1.2.0"
     },
     "devDependencies": {
-        "codecov": "^2.1.0",
+        "codecov": "^3.0.0",
+        "eslint": "^4.9.0",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.7.0",
         "grunt": "^1.0.1",
         "grunt-contrib-watch": "^1.0.0",
         "grunt-eslint": "^20.0.0",

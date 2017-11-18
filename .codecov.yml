@@ -1,0 +1,17 @@
+codecov:
+  branch: master
+  token: secret:4ZHXRTlW9gZ538DdSjpIxGqe5PhzEbrR3GHuryXkr3yQ1txbm+kM9MhV1AhfYNbBBs+TOLkDyTgQl9sAHKHeRAmTaUaWbnkfx+9UK9sYf0Q=
+
+coverage:
+  range: 70...95
+  round: nearest
+  precision: 2
+  notify:
+    slack:
+      default:
+        url: secret:3pLXQRpNv/e44kQfRON09p5fnNd0rmyp23NPUt2c2YrvIF0zaTlSPQK+OL+cFV7Z2yiPVRxf2Pl9YzYJ1dIgPRmO8oDkLsATXCD5xntJnR+a/lvWFJX0SubvPXI9AD6dsJEKJVJjt4gqoiqdVRWA0L7NMEehe4hIgfLiTKnHkx4=
+        threshold: 0%
+        only_pulls: false
+        branches: null
+        flags: null
+        paths: null

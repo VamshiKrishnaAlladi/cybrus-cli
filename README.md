@@ -2,7 +2,7 @@
 ## [ Work-In-Progress 👨‍💻❗⛑ ]
 ### **Badges** [ _First things first_ ] :
 
-[![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli) [![Buddy Pipeline](https://app.buddy.works/cybrus-ai/cybrus-cli/pipelines/pipeline/55186/badge.svg?token=9121062b234afbfe193cc2b7f82c901f9c1f1358203ad1b3d95af22ac2d2445c "buddy pipeline")](https://app.buddy.works/cybrus-ai/cybrus-cli/pipelines/pipeline/55186)
+[![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli)
 
 [![Code Climate](https://img.shields.io/codeclimate/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=Code%20Climate%20G.P.A)](https://codeclimate.com/github/CybrusAI/cybrus-cli) [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CybrusAI/cybrus-cli.svg?style=flat-square&label=Scrutinizer%20Code%20Quality)](https://scrutinizer-ci.com/g/CybrusAI/cybrus-cli/?branch=development)
 

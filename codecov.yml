@@ -1,4 +1,5 @@
 codecov:
+  branch: master
   token: secret:4ZHXRTlW9gZ538DdSjpIxGqe5PhzEbrR3GHuryXkr3yQ1txbm+kM9MhV1AhfYNbBBs+TOLkDyTgQl9sAHKHeRAmTaUaWbnkfx+9UK9sYf0Q=
 
 coverage:

@@ -4,7 +4,7 @@
 
 [![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli)
 
-[![Code Climate](https://img.shields.io/codeclimate/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=Code%20Climate%20G.P.A)](https://codeclimate.com/github/CybrusAI/cybrus-cli) [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CybrusAI/cybrus-cli.svg?style=flat-square&label=Scrutinizer%20Code%20Quality)](https://scrutinizer-ci.com/g/CybrusAI/cybrus-cli/?branch=development)
+[![Code Climate](https://img.shields.io/codeclimate/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=Code%20Climate%20G.P.A)](https://codeclimate.com/github/CybrusAI/cybrus-cli)
 
 [![Codecov coverage](https://img.shields.io/codecov/c/github/CybrusAI/cybrus-cli/development.svg?style=flat-square&label=Codecov%20coverage)](https://codecov.io/gh/CybrusAI/cybrus-cli)
 

@@ -9,7 +9,7 @@ coverage:
   notify:
     slack:
       default:
-        url: secret:3pLXQRpNv/e44kQfRON09p5fnNd0rmyp23NPUt2c2YrvIF0zaTlSPQK+OL+cFV7Z2yiPVRxf2Pl9YzYJ1dIgPRmO8oDkLsATXCD5xntJnR+a/lvWFJX0SubvPXI9AD6dsJEKJVJjt4gqoiqdVRWA0L7NMEehe4hIgfLiTKnHkx4=
+        url: https://hooks.slack.com/services/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
         threshold: 0%
         only_pulls: false
         branches: null

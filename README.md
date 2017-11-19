@@ -2,7 +2,7 @@
 ## [ Work-In-Progress 👨‍💻❗⛑ ]
 ### **Badges** [ _First things first_ ] :
 
-[![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli) [![Code Climate](https://img.shields.io/codeclimate/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=Code%20Climate%20G.P.A)](https://codeclimate.com/github/CybrusAI/cybrus-cli) [![Codecov coverage](https://img.shields.io/codecov/c/github/CybrusAI/cybrus-cli/development.svg?style=flat-square&label=Codecov%20coverage)](https://codecov.io/gh/CybrusAI/cybrus-cli) [![Greenkeeper badge](https://img.shields.io/badge/Greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/)
+[![CircleCI build](https://img.shields.io/circleci/project/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=CircleCI%20build)](https://circleci.com/gh/CybrusAI/cybrus-cli) [![Code Climate](https://img.shields.io/codeclimate/github/CybrusAI/cybrus-cli.svg?style=flat-square&label=Code%20Climate%20G.P.A)](https://codeclimate.com/github/CybrusAI/cybrus-cli) [![Codecov coverage](https://img.shields.io/codecov/c/github/CybrusAI/cybrus-cli/master.svg?style=flat-square&label=Codecov%20coverage)](https://codecov.io/gh/CybrusAI/cybrus-cli) [![Greenkeeper badge](https://img.shields.io/badge/Greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/)
 
 _I wonder why everybody looks for these thingies now-a-days?_ 🤔 _**IDK!** I look for them too._ 😉😝
 

@@ -55,7 +55,7 @@
         "codecov": "^3.0.0",
         "eslint": "^4.12.1",
         "eslint-config-airbnb-base": "^12.1.0",
-        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-import": "^2.8.0",
         "grunt": "^1.0.1",
         "grunt-contrib-watch": "^1.0.0",
         "grunt-eslint": "^20.0.0",

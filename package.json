@@ -53,15 +53,15 @@
     },
     "devDependencies": {
         "codecov": "^3.0.0",
-        "eslint": "^4.9.0",
+        "eslint": "^4.12.1",
         "eslint-config-airbnb-base": "^12.1.0",
-        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-import": "^2.8.0",
         "grunt": "^1.0.1",
         "grunt-contrib-watch": "^1.0.0",
         "grunt-eslint": "^20.0.0",
         "grunt-shell": "^2.1.0",
         "husky": "^0.14.1",
-        "jest-cli": "^20.0.4",
+        "jest": "^21.2.1",
         "load-grunt-tasks": "^3.5.2"
     }
 }
